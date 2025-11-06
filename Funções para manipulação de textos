@@ -1,0 +1,11 @@
+arquivo = open('arqTextt.txt','w')
+
+arquivo.write('Curso Python \n')
+arquivo.write('Aula Prática')
+arquivo.close()
+
+#leitura do arquivo texto
+
+leitura = open('arqTextt.txt','r')
+print(leitura.read())
+leitura.close()
