@@ -1,0 +1,12 @@
+def mensagem1():
+    print(" Ola mundo")
+
+
+def mensagem2():
+    return 'Ola mundo'
+
+
+mensagem1()
+
+texto = mensagem2()
+print(texto)
